@@ -67,17 +67,17 @@ computed via window functions across the full dataset
 **Page 1 — Universe Overview**
 KPI cards (Total Companies, Median Market Cap, High Risk Count) · Sector combo chart (company count + avg Deal Score) · Valuation distribution donut
 
-![Universe Overview](pbi/page1_universe_overview.png)
+![Universe Overview](pbi/Universe%20Overview.png)
 
 **Page 2 — Sector Deep Dive** *(drill-through from Page 1)*
 Company detail table (Market Cap, EBITDA, EPS, Deal Score, Risk Flag) · Top 5 by Deal Score bar chart · Sector KPI cards (Avg P/E, Avg EPS)
 
-![Sector Deep Dive](pbi/page2_sector_deep_dive.png)
+![Sector Deep Dive](pbi/Sector%20Deep%20Dive.png)
 
 **Page 3 — Opportunity Map**
 Scatter plot (X = P/E ratio, Y = EPS, bubble size = Market Cap, colour = Risk Flag) · Slicers: Sector, Valuation Category, Market Cap range
 
-![Opportunity Map](pbi/page3_opportunity_map.png)
+![Opportunity Map](pbi/Oppurtunity%20Map.png)
 
 ---
 
@@ -87,13 +87,13 @@ Scatter plot (X = P/E ratio, Y = EPS, bubble size = Market Cap, colour = Risk Fl
 Swimlanes: PE Fund Client | Financial Analyst | Deal Manager
 Pain points annotated: no standardised criteria, 3–4 day cycle, no audit trail, static deliverable.
 
-![AS-IS Process](bpmn/AS-IS_screenshot.png)
+![AS-IS Process](bpmn/AS-IS_screenshot.png.png)
 
 **TO-BE — AlphaScreen Automated Platform**
 Swimlanes: PE Fund Client | Financial Analyst | System | Deal Manager
 Exclusive gateway: Deal Score ≥ threshold → shortlist / archive. Client self-serve dashboard access as final step.
 
-![TO-BE Process](bpmn/TO-BE_screenshot.png)
+![TO-BE Process](bpmn/TO-BE_screenshot.png.png)
 
 ---
 
