@@ -124,22 +124,32 @@ git clone https://github.com/triton1000/alphascreen-ma-screening
 ## Repository Structure
 
 alphascreen-ma-screening/
+├── data/
+│   └── constituents-financials.xlsx
+│
 ├── sql/
 │   ├── schema.sql
-│   └── queries.sql
-├── powerbi/
+│   ├── queries.sql
+│   ├── result_1.png
+│   ├── result_2.png
+│   ├── result_3.png
+│   ├── result_4.png
+│   ├── result_5.png
+│   ├── result_6.png
+│   └── result_7.png
+│
+├── pbi/
 │   ├── AlphaScreen.pbix
-│   └── screenshots/
-│       ├── page1_universe_overview.png
-│       ├── page2_sector_deep_dive.png
-│       └── page3_opportunity_map.png
-├── docs/
-│   ├── AlphaScreen_BRD.pdf
-│   └── AlphaScreen_UAT.xlsx
+│   ├── Opportunity Map.png
+│   ├── Sector Deep Dive.png
+│   └── Universe Overview.png
+│
 ├── bpmn/
 │   ├── AS-IS_Manual_Process.drawio
-│   ├── TO-BE_Automated_Platform.drawio
 │   ├── AS-IS_screenshot.png
+│   ├── TO-BE_Automated_Platform.drawio
 │   └── TO-BE_screenshot.png
-└── data/
-    └── constituents-financials.csv
+│
+└── docs/
+    ├── AlphaScreen_BRD.docx
+    └── AlphaScreen_UAT.xlsx
