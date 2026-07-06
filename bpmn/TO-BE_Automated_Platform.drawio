@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wc1TvtXyAx3-p8NsgNh8">
+    <mxGraphModel dx="2321" dy="1863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=30;horizontalStack=0;whiteSpace=wrap;" value="&#xa;S&amp;amp;P 500 Acquisition Screening — Future State (TO-BE)&#xa;&#xa;" vertex="1">
+          <mxGeometry height="550" width="970" x="-10" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-2" parent="18Be0IcE8mw6SkRJXTKY-1" style="swimlane;html=1;startSize=30;horizontal=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacing=0;" value="PE Fund Client" vertex="1">
+          <mxGeometry height="150" width="970" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-49" edge="1" parent="18Be0IcE8mw6SkRJXTKY-2" source="18Be0IcE8mw6SkRJXTKY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-6" parent="18Be0IcE8mw6SkRJXTKY-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;labelPosition=center;" value="Start" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-15" parent="18Be0IcE8mw6SkRJXTKY-2" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Submit screening criteria via AlphaScreen platform" vertex="1">
+          <mxGeometry height="60" width="120" x="145" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-58" parent="18Be0IcE8mw6SkRJXTKY-2" style="whiteSpace=wrap;html=1;rounded=1;" value="&#xa;Access self-serve AlphaScreen dashboard&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-65" parent="18Be0IcE8mw6SkRJXTKY-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;labelPosition=center;" value="End" vertex="1">
+          <mxGeometry height="50" width="50" x="900" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-66" edge="1" parent="18Be0IcE8mw6SkRJXTKY-2" source="18Be0IcE8mw6SkRJXTKY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="18Be0IcE8mw6SkRJXTKY-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-3" parent="18Be0IcE8mw6SkRJXTKY-1" style="swimlane;html=1;startSize=30;horizontal=0;fontSize=12;" value="Financial Analyst" vertex="1">
+          <mxGeometry height="130" width="970" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-39" parent="18Be0IcE8mw6SkRJXTKY-3" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" value="Run and validate SQL scoring queries" vertex="1">
+          <mxGeometry height="65" width="120" x="145" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-51" parent="18Be0IcE8mw6SkRJXTKY-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&#xa;Add deal commentary to shortlisted companies&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="120" x="650" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-5" parent="18Be0IcE8mw6SkRJXTKY-1" style="swimlane;html=1;startSize=30;horizontal=0;" value="System" vertex="1">
+          <mxGeometry height="120" width="970" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-19" parent="18Be0IcE8mw6SkRJXTKY-5" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&#xa;Execute Deal Score computation across all companies&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-45" edge="1" parent="18Be0IcE8mw6SkRJXTKY-5" source="18Be0IcE8mw6SkRJXTKY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-17" parent="18Be0IcE8mw6SkRJXTKY-5" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" value="&#xa;Pre-load S&amp;amp;P 500 dataset from source&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-46" edge="1" parent="18Be0IcE8mw6SkRJXTKY-5" source="18Be0IcE8mw6SkRJXTKY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" target="18Be0IcE8mw6SkRJXTKY-23" value="&#xa;Yes ≥ 0.5&#xa;&#xa;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-21" parent="18Be0IcE8mw6SkRJXTKY-5" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="&#xa;Deal Score ≥ threshold?&#xa;&#xa;" vertex="1">
+          <mxGeometry height="50" width="50" x="350" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-22" edge="1" parent="18Be0IcE8mw6SkRJXTKY-5" source="18Be0IcE8mw6SkRJXTKY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="18Be0IcE8mw6SkRJXTKY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-36" edge="1" parent="18Be0IcE8mw6SkRJXTKY-5" source="18Be0IcE8mw6SkRJXTKY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-23" parent="18Be0IcE8mw6SkRJXTKY-5" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;" value="&#xa;Add company to acquisition shortlist&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-32" parent="18Be0IcE8mw6SkRJXTKY-5" style="whiteSpace=wrap;html=1;verticalAlign=middle;rounded=1;labelBackgroundColor=none;" value="&#xa; &lt;em&gt;Auto-refresh AlphaScreen dashboard&lt;/em&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-4" parent="18Be0IcE8mw6SkRJXTKY-1" style="swimlane;html=1;startSize=30;horizontal=0;" value="Deal&amp;nbsp; Manager" vertex="1">
+          <mxGeometry height="120" width="970" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-26" parent="18Be0IcE8mw6SkRJXTKY-4" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;" value="&#xa;Archive below-threshold company&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-57" edge="1" parent="18Be0IcE8mw6SkRJXTKY-4" source="18Be0IcE8mw6SkRJXTKY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-53" parent="18Be0IcE8mw6SkRJXTKY-4" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&#xa;Review shortlist and analyst commentary&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="120" x="650" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-55" parent="18Be0IcE8mw6SkRJXTKY-4" style="rounded=1;whiteSpace=wrap;html=1;" value="&#xa;Approve shortlist for client delivery&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="820" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-42" edge="1" parent="18Be0IcE8mw6SkRJXTKY-1" source="18Be0IcE8mw6SkRJXTKY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-43" edge="1" parent="18Be0IcE8mw6SkRJXTKY-1" source="18Be0IcE8mw6SkRJXTKY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-48" edge="1" parent="18Be0IcE8mw6SkRJXTKY-1" source="18Be0IcE8mw6SkRJXTKY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" target="18Be0IcE8mw6SkRJXTKY-26" value="No &amp;lt; 0.5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="418" />
+              <mxPoint x="240" y="418" />
+              <mxPoint x="240" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-52" edge="1" parent="18Be0IcE8mw6SkRJXTKY-1" source="18Be0IcE8mw6SkRJXTKY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="18Be0IcE8mw6SkRJXTKY-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-54" edge="1" parent="18Be0IcE8mw6SkRJXTKY-1" source="18Be0IcE8mw6SkRJXTKY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="18Be0IcE8mw6SkRJXTKY-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18Be0IcE8mw6SkRJXTKY-60" edge="1" parent="18Be0IcE8mw6SkRJXTKY-1" source="18Be0IcE8mw6SkRJXTKY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="18Be0IcE8mw6SkRJXTKY-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="250" />
+              <mxPoint x="780" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

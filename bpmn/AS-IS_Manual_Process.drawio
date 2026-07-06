@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="yhs0k_SAeT0447b7FTSd">
+    <mxGraphModel dx="981" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="S&amp;amp;P 500 Acquisition Screening — Current State (AS-IS)" vertex="1">
+          <mxGeometry height="410" width="860" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-2" parent="kyUwVNJOugTDkVYrbEWu-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="PE Fund Client" vertex="1">
+          <mxGeometry height="120" width="860" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-9" parent="kyUwVNJOugTDkVYrbEWu-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;labelPosition=center;" value="Start" vertex="1">
+          <mxGeometry height="50" width="50" x="30" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-12" parent="kyUwVNJOugTDkVYrbEWu-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&#xa;Submit acquisition screening request via email&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-11" edge="1" parent="kyUwVNJOugTDkVYrbEWu-2" source="kyUwVNJOugTDkVYrbEWu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-26" edge="1" parent="kyUwVNJOugTDkVYrbEWu-2" source="kyUwVNJOugTDkVYrbEWu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-23" parent="kyUwVNJOugTDkVYrbEWu-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&#xa;Receive and review static deliverable&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-25" parent="kyUwVNJOugTDkVYrbEWu-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;labelPosition=center;" value="End" vertex="1">
+          <mxGeometry height="50" width="50" x="740" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-3" parent="kyUwVNJOugTDkVYrbEWu-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Financial Analyst" vertex="1">
+          <mxGeometry height="130" width="860" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-16" edge="1" parent="kyUwVNJOugTDkVYrbEWu-3" source="kyUwVNJOugTDkVYrbEWu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-13" parent="kyUwVNJOugTDkVYrbEWu-3" style="rounded=1;whiteSpace=wrap;html=1;" value="&#xa;Download raw financial data from Bloomberg / Excel&#xa;&#xa;" vertex="1">
+          <mxGeometry height="70" width="120" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-18" edge="1" parent="kyUwVNJOugTDkVYrbEWu-3" source="kyUwVNJOugTDkVYrbEWu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-15" parent="kyUwVNJOugTDkVYrbEWu-3" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;textShadow=0;labelBorderColor=none;" value="&#xa;Apply manual filters using ad-hoc criteria&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-17" parent="kyUwVNJOugTDkVYrbEWu-3" style="rounded=1;whiteSpace=wrap;html=1;" value="&#xa;Build static Excel screening report&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-4" parent="kyUwVNJOugTDkVYrbEWu-1" style="swimlane;html=1;startSize=20;horizontal=0;direction=east;" value="Deal Manager" vertex="1">
+          <mxGeometry height="140" width="860" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-22" edge="1" parent="kyUwVNJOugTDkVYrbEWu-4" source="kyUwVNJOugTDkVYrbEWu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-19" parent="kyUwVNJOugTDkVYrbEWu-4" style="rounded=1;whiteSpace=wrap;html=1;" value="Review screening report" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-21" parent="kyUwVNJOugTDkVYrbEWu-4" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="&#xa;Email static report to PE Fund Client&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="150" x="580" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-14" edge="1" parent="kyUwVNJOugTDkVYrbEWu-1" source="kyUwVNJOugTDkVYrbEWu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-20" edge="1" parent="kyUwVNJOugTDkVYrbEWu-1" source="kyUwVNJOugTDkVYrbEWu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyUwVNJOugTDkVYrbEWu-24" edge="1" parent="kyUwVNJOugTDkVYrbEWu-1" source="kyUwVNJOugTDkVYrbEWu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kyUwVNJOugTDkVYrbEWu-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
