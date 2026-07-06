@@ -67,17 +67,17 @@ computed via window functions across the full dataset
 **Page 1 — Universe Overview**
 KPI cards (Total Companies, Median Market Cap, High Risk Count) · Sector combo chart (company count + avg Deal Score) · Valuation distribution donut
 
-![Universe Overview](pbi/universe_overview.png)
+![Universe Overview](pbi/page1_universe_overview.png)
 
 **Page 2 — Sector Deep Dive** *(drill-through from Page 1)*
 Company detail table (Market Cap, EBITDA, EPS, Deal Score, Risk Flag) · Top 5 by Deal Score bar chart · Sector KPI cards (Avg P/E, Avg EPS)
 
-![Sector Deep Dive](powerbi/screenshots/page2_sector_deep_dive.png)
+![Sector Deep Dive](pbi/page2_sector_deep_dive.png)
 
 **Page 3 — Opportunity Map**
 Scatter plot (X = P/E ratio, Y = EPS, bubble size = Market Cap, colour = Risk Flag) · Slicers: Sector, Valuation Category, Market Cap range
 
-![Opportunity Map](powerbi/screenshots/page3_opportunity_map.png)
+![Opportunity Map](pbi/page3_opportunity_map.png)
 
 ---
 
