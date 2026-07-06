@@ -67,7 +67,7 @@ computed via window functions across the full dataset
 **Page 1 — Universe Overview**
 KPI cards (Total Companies, Median Market Cap, High Risk Count) · Sector combo chart (company count + avg Deal Score) · Valuation distribution donut
 
-![Universe Overview](powerbi/screenshots/page1_universe_overview.png)
+![Universe Overview](pbi/universe_overview.png)
 
 **Page 2 — Sector Deep Dive** *(drill-through from Page 1)*
 Company detail table (Market Cap, EBITDA, EPS, Deal Score, Risk Flag) · Top 5 by Deal Score bar chart · Sector KPI cards (Avg P/E, Avg EPS)
