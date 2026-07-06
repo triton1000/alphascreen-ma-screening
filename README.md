@@ -124,7 +124,6 @@ git clone https://github.com/triton1000/alphascreen-ma-screening
 ## Repository Structure
 
 alphascreen-ma-screening/
-├── README.md
 ├── sql/
 │   ├── schema.sql
 │   └── queries.sql
